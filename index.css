@@ -1,0 +1,25 @@
+body {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+p {
+    color: white;
+}
+
+button {
+    background-color: goldenrod;
+    padding: 8px;
+    display: block;
+    cursor: pointer;
+    width: 150px;
+    border: none;
+}
