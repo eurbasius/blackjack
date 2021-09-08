@@ -1,3 +1,8 @@
+let player = {
+  name: "Edvinas",
+  chips: 145,
+};
+
 let cards = [];
 let sum = 0;
 let message;
@@ -7,11 +12,6 @@ let resultEl = document.getElementById("resultEl");
 let sumEl = document.getElementById("sumEl");
 let cardsEl = document.getElementById("cardsEl");
 let playerEl = document.getElementById("playerEl");
-
-let player = {
-  name: "Edvinas",
-  chips: 145,
-};
 
 playerEl.textContent = `${player.name}: $${player.chips}`;
 
